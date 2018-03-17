@@ -1,0 +1,138 @@
+.logo {
+	height: 350px;
+	background: url("logo.jpg") top center;
+	background-size: cover;
+}
+
+.Ranklist {
+	padding: 8px 16px;
+	border-right: 1px solid #65ddff;
+	border-bottom: 1px solid #65ddff;
+	border-left: 1px solid #65ddff;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	margin-bottom: 30px;
+}
+
+.Ranklist .table {
+	margin-bottom: 0;
+}
+
+.Ranklist .table > tbody > tr > td, .Ranklist .table > thead > tr > th {
+	border-color: #76e1ff;
+}
+
+.Ranklist .table-hover > tbody > tr:hover {
+	background-color: rgba(255, 255, 255, .2);
+	cursor: pointer;
+}
+
+.award {
+	font-weight: 700;
+}
+
+.champion {
+	color: #55daff;
+}
+
+.champion:hover {
+	background-color: rgba(85, 218, 255, .2) !important;
+}
+
+.gold {
+	color: #f8bf29;
+}
+
+.gold:hover {
+	background-color: rgba(248, 191, 41, .2) !important;
+}
+
+.silver {
+	color: #c0c0c0;
+}
+
+.silver:hover {
+	background-color: rgba(192, 192, 192, .2) !important;
+}
+
+.bronze {
+	color: #cb7d31;
+}
+
+.bronze:hover {
+	background-color: rgba(203, 125, 49, .2) !important;
+}
+
+.TeamDetail .modal-dialog {
+	width: 90%;
+}
+
+@media (min-width: 768px) {
+	.TeamDetail .modal-dialog {
+		width: 750px;
+	}
+}
+
+@media (min-width: 992px) {
+	.TeamDetail .modal-dialog {
+		width: 970px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.TeamDetail .modal-dialog {
+		width: 1170px;
+	}
+}
+
+.TeamDetail .modal-content {
+	background-color: #2d4587;
+}
+
+.TeamDetail button.close {
+	color: #fff;
+	opacity: .5;
+}
+
+.TeamDetail button.close:hover, .TeamDetail button.close:focus {
+	opacity: .75;
+}
+
+.TeamDetail .table {
+	margin-bottom: 0;
+}
+
+.TeamDetail .table-hover > tbody > tr:hover {
+	background-color: rgba(255, 255, 255, .2);
+}
+
+.mvp {
+	color: #ff3c3c;
+	font-size: 64%;
+	font-weight: 700;
+	margin-left: 6px;
+}
+
+.footer {
+	margin-bottom: 30px;
+}
+
+.footer p {
+	margin-bottom: 0;
+}
+
+.footer a {
+	color: #65ddff;
+}
+
+.footer a:hover, .footer a:focus {
+	color: #83e3fe;
+}
+
+.bLue {
+	color: #09f !important;
+}
+
+.bLue:hover, .bLue:focus {
+	color: #32adff !important;
+}
